@@ -22,21 +22,7 @@
 <div class="content">
 	<h1>Storage Unit Detail:</h1>
 
-  <ul>
-    <b>Identifier:</b> {{ object.identifier }}<br />
-    <b>Unit is Full:</b> {{ object.unit_full }}<br />
-    <b>Unit Priority:</b> {{ object.priority }}<br />
-    <b>Reserve Gb:</b> {{ object.reserve_gb }}<br />
-    <b>Unit Type:</b> {% if object.primary_unit %}Primary{% else %}{% if object.backup_unit %}Backup{% endif %}{% endif %}<br />
-    <b>Mount Point:</b> {{ object.mount_point }}<br />
-    <br />
-    <b>Storage Unit is
-      {% if object.is_mounted %}
-      <font color="green">Online</font>
-      {% else %}
-      <font color="red">Offline</font>
-      {% endif %}
-  </ul>
+  
 </div>
 
 <div class="footer">
