@@ -254,3 +254,51 @@ li {
 }
 /******************/
 /******************/
+
+/*
+   Class aodetailstorage is for the table of Storage Details
+   in template file archivesobject_detail.html
+   */
+
+.aodetailstorage {
+                   font-size: 0.8em;
+                   color: #001511;
+                   font-family: "Palatino Linotype", Baskerville, serif;
+                   text-decoration: none;
+                   }
+
+.aodetailstorage table {
+                         margin-left: 0px;
+                         margin-right: 0px;
+                         padding: 10px;
+                         width: 700px;
+                         border: 1px solid;
+                         border-spacing: 0 20px;
+                         }
+
+
+.aodetailstorage td[title^=Online] {
+                                    width: 10px;
+                                    background-color: green;
+                                    }
+
+.aodetailstorage td[title^=Offline] {
+                                      width: 10px;
+                                      background-color: red;
+                                     }
+
+.aodetailstorage td[title^=Storage] {
+                                      width: 300px;
+                                      }
+
+.aodetailstorage td[title^=Size] {
+                                   width: 100px;
+                                   }
+
+.aodetailstorage td[title^=View] {
+                                   width: 120px;
+                                 }
+
+.aodetailstorage td[title^=Download] {
+                                       float: right;
+                                       }
