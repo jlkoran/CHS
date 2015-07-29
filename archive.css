@@ -261,10 +261,10 @@ li {
    */
 
 .aodetailstorage {
-                   font-size: 0.8em;
-                   color: #001511;
-                   font-family: "Palatino Linotype", Baskerville, serif;
-                   text-decoration: none;
+        font-family: "Helvetica", sans-serif;
+	font-size: 14px;
+	line-height: 1.5;
+	font-weight: 300;
                    }
 
 .aodetailstorage table {
@@ -280,11 +280,13 @@ li {
 .aodetailstorage td[title^=Online] {
                                     width: 10px;
                                     background-color: green;
+                                    margin-right: 10px;
                                     }
 
 .aodetailstorage td[title^=Offline] {
                                       width: 10px;
                                       background-color: red;
+                                      margin-right: 10px;
                                      }
 
 .aodetailstorage td[title^=Storage] {
