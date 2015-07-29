@@ -162,10 +162,12 @@ li {
 
 .aolisting tr:nth-child(even) {
   background-color: #f0c095;
+  opacity:0.5;
 }
 
 .aolisting tr:nth-child(odd) {
   background-color: #e3ad7a;
+  opacity:0.5;
 }
 
 .aolisting td[title^="AO Title"] {
