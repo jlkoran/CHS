@@ -162,12 +162,12 @@ li {
 
 .aolisting tr:nth-child(even) {
   /*background-color: #f0c095;*/
-  background-color: rgba(240, 192, 149, 0.6);
+  background-color: rgba(240, 192, 149, 0.7);
 }
 
 .aolisting tr:nth-child(odd) {
   /*background-color: #e3ad7a;*/
-  background-color: rgba(227, 173, 122, 0.6);
+  background-color: rgba(227, 173, 122, 0.8);
 }
 
 .aolisting td[title^="AO Title"] {
