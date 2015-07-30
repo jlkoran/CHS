@@ -59,7 +59,7 @@ ul.main li a:hover{
 div.content {
 	margin-left: 80px;
 	width:900px;
-	min-height:50%;
+	min-height:100%;
 }
 
 div.footer {
